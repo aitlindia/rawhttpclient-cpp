@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RawHTTP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RawHTTP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="/home/nurul/Projects/CodeBlocksWP/MakefileProjects/RawHTTP/inc" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="/home/nurul/Projects/CodeBlocksWP/MakefileProjects/RawHTTP/inc" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="httprequest" />
+					<Add directory="/home/nurul/Projects/CodeBlocksWP/MakefileProjects/RawHTTP/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RawHTTP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="inc/HttpException.h" />
+		<Unit filename="inc/HttpRequest.h" />
+		<Unit filename="inc/HttpResponse.h" />
+		<Unit filename="inc/base64.h" />
+		<Unit filename="include/RawHTTPClient.h" />
+		<Unit filename="include/json.hpp" />
+		<Unit filename="lib/libhttprequest.a" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/RawHTTPClient.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

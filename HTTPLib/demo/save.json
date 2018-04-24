@@ -1,0 +1,23 @@
+
+
+{"RfidTagReaderObject":
+{
+"rfidReaderId":"4",
+"rfidTag":"1234567890C6XXXXX125",
+"macAddress":"00:23:68:DB:0F:54",
+"event":"4",
+"timeStamp":"2018-01-24 18:59:38",
+"containerNo":"CAXU6442769", 
+"rfidSeqNo":"20"
+}
+}
+
+
+{
+  "rfidTag":"1234567890C6XXXXX125",
+  "containerNo":"CAXU6442769",
+  "event":"4",
+  "macAddress":"C4:7D:CC:31:95:99",
+  "timeStamp":"2018-01-24 18:59:38",
+  "rfidSeqNo":"20"  
+}
